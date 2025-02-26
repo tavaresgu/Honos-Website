@@ -238,16 +238,17 @@ main {
 
 @media (max-width: 768px) {
     .nav {
-        flex-direction: column;
-        gap: 1rem;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 2rem;
         padding: 1rem;
     }
 
     .nav-links {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 1rem;
-        width: 100%;
+        width: auto;
     }
 
     .hero {
@@ -294,10 +295,5 @@ main {
     .cta-button {
         width: 80%;
         max-width: 300px;
-    }
-}
-
-    .about, .services, .contact {
-        padding: 4rem 1rem;
     }
 }
