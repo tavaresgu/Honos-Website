@@ -11,6 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // CTA button WhatsApp redirect
+    document.querySelector('.cta-button')?.addEventListener('click', () => {
+        window.open('https://wa.me/5548988683838', '_blank');
+    });
+
     // Form submission handling
     document.querySelector('.contact-form')?.addEventListener('submit', (e) => {
         e.preventDefault();
